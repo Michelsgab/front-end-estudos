@@ -1,0 +1,18 @@
+<html>
+<head>
+<script>
+var array = [];
+function adicionar(valor){
+    array.push(valor);
+    console.log(valor);
+    console.log(array);
+}
+</script>
+</head>
+<body>
+<form name='frm'>
+<input type='text' name='dado'>
+<input type='button' onclick='javascript:adicionar(document.frm.dado.value);' value='inserir'/>
+</form>
+</body>
+</html>
